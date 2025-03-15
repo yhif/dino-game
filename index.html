@@ -24,80 +24,330 @@
 </head>
 <body class="bg-gray-50">
     <!-- Hero Section -->
-    <header class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+    <header class="bg-gradient-to-r from-teal-500 to-emerald-500 text-white">
         <div class="container mx-auto px-4 py-16">
-            <h1 class="text-4xl md:text-6xl font-bold text-center mb-6">Chrome Dinosaur Game</h1>
-            <p class="text-xl text-center mb-8">Experience the classic T-Rex runner game that's entertained millions</p>
+            <h1 class="text-4xl md:text-6xl font-bold text-center mb-6">Dinosaur Game</h1>
+            <p class="text-xl text-center mb-8">The legendary Chrome T-Rex runner that's captivated millions worldwide</p>
+            <div class="flex justify-center">
+                <a href="#play" class="bg-white text-emerald-600 hover:bg-emerald-50 transition-colors px-8 py-3 rounded-full font-semibold shadow-lg">Play Now</a>
+            </div>
         </div>
     </header>
 
     <!-- Game Section -->
-    <section class="container mx-auto px-4 py-8">
+    <section id="play" class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center mb-8">Play Dinosaur Game Online</h2>
         <div class="w-full aspect-video bg-white rounded-lg shadow-lg overflow-hidden">
             <iframe src="https://dinosaur-game.io/game/dino/" class="w-full h-full border-0" allowfullscreen></iframe>
+        </div>
+        <p class="text-center mt-4 text-gray-600">No internet connection needed - play anytime, anywhere!</p>
+    </section>
+
+    <!-- About the Game -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">About Dinosaur Game</h2>
+            <div class="max-w-4xl mx-auto">
+                <p class="text-lg mb-6">The Dinosaur Game (also known as the Chrome Dino or T-Rex Runner) is a built-in browser game in Google Chrome. Originally created as an Easter egg for Chrome's offline error page, it has become a cultural phenomenon enjoyed by millions worldwide.</p>
+                <p class="text-lg mb-6">This endless runner game features a pixelated T-Rex that must avoid obstacles like cacti and pterodactyls. The longer you survive, the higher your score climbs, with the game gradually increasing in difficulty and speed.</p>
+                <p class="text-lg">Our platform brings this classic game online, allowing you to enjoy it anytime without needing to disconnect from the internet!</p>
+            </div>
         </div>
     </section>
 
     <!-- How to Play Section -->
-    <section class="bg-white py-16">
+    <section class="bg-gray-50 py-16">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-12">How to Play</h2>
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-gray-50 p-6 rounded-lg">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-emerald-500 text-4xl font-bold mb-4">01</div>
                     <h3 class="text-xl font-semibold mb-4">Basic Controls</h3>
-                    <p>Press SPACE or UP ARROW to jump over obstacles. Use DOWN ARROW to duck under flying pterodactyls.</p>
+                    <p>Press SPACE or UP ARROW to jump over obstacles. Use DOWN ARROW to duck under flying pterodactyls. On mobile devices, tap the screen to jump.</p>
                 </div>
-                <div class="bg-gray-50 p-6 rounded-lg">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-emerald-500 text-4xl font-bold mb-4">02</div>
                     <h3 class="text-xl font-semibold mb-4">Scoring System</h3>
-                    <p>Your score increases the longer you survive. Every 100 points marks a new milestone, and the game speeds up!</p>
+                    <p>Your score increases the longer you survive. Every 100 points marks a new milestone, and the game speeds up! The day/night cycle changes as you progress.</p>
                 </div>
-                <div class="bg-gray-50 p-6 rounded-lg">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-emerald-500 text-4xl font-bold mb-4">03</div>
                     <h3 class="text-xl font-semibold mb-4">Game Over</h3>
-                    <p>Hit any obstacle and it's game over. Press SPACE to restart and try to beat your high score!</p>
+                    <p>Hit any obstacle and it's game over. Press SPACE to restart and try to beat your high score! Challenge friends to see who can achieve the highest score.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Game Features -->
-    <section class="py-16 bg-gray-100">
+    <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-12">Game Features</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="space-y-4">
-                    <h3 class="text-xl font-semibold">Progressive Difficulty</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Progressive Difficulty</h3>
                     <p>The game gradually increases in speed as you progress, testing your reflexes and timing.</p>
                 </div>
-                <div class="space-y-4">
-                    <h3 class="text-xl font-semibold">Day/Night Cycle</h3>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Day/Night Cycle</h3>
                     <p>Experience dynamic gameplay with changing environments as you reach higher scores.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">High Score Tracking</h3>
+                    <p>Your highest score is saved locally, allowing you to track your progress and improvements.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Cross-Platform</h3>
+                    <p>Play seamlessly across desktop and mobile devices with optimized controls for each platform.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Tips and Tricks -->
-    <section class="py-16">
+    <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-12">Pro Tips</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="bg-white p-6 rounded-lg shadow">
+                <div class="bg-white p-6 rounded-lg shadow-md">
                     <h3 class="text-xl font-semibold mb-4">Timing is Everything</h3>
-                    <p>Learn to time your jumps perfectly. Jump early for tall cacti and late for short ones.</p>
+                    <p>Learn to time your jumps perfectly. Jump early for tall cacti and late for short ones. For multiple cacti in a row, a single well-timed jump can clear them all.</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow">
+                <div class="bg-white p-6 rounded-lg shadow-md">
                     <h3 class="text-xl font-semibold mb-4">Watch the Pattern</h3>
-                    <p>Obstacles appear in patterns. Learning these patterns will help you achieve higher scores.</p>
+                    <p>Obstacles appear in patterns. Learning these patterns will help you achieve higher scores and anticipate what's coming next.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Master the Duck</h3>
+                    <p>When pterodactyls appear, quickly assess their height. Some require jumping, while others need ducking. Practice switching between these moves rapidly.</p>
                 </div>
             </div>
         </div>
     </section>
 
+        <!-- Game Reviews -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Player Reviews</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- 第一个评论 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                                MT
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Michael T.</h4>
+                                <div class="flex items-center text-yellow-400">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-4">"The perfect way to kill time! I've spent countless hours trying to beat my high score. Simple yet addictive!"</p>
+                        <div class="text-sm text-gray-500 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            <span>Played for 6+ months</span>
+                        </div>
+                    </div>
+                    
+                    <!-- 第二个评论 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                                SK
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Sarah K.</h4>
+                                <div class="flex items-center text-yellow-400">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-4">"I love how this game brings back nostalgia while still being challenging. The online version works perfectly on my phone too!"</p>
+                        <div class="text-sm text-gray-500 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                            <span>Mobile Player</span>
+                        </div>
+                    </div>
+                    
+                    <!-- 第三个评论 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                                DR
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">David R.</h4>
+                                <div class="flex items-center text-yellow-400">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-300" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-4">"Great for quick gaming sessions during breaks. My kids love it too - simple enough for them but challenging enough for adults."</p>
+                        <div class="text-sm text-gray-500 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                            <span>Family Player</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 玩家统计 -->
+                <!-- <div class="mt-12 bg-white p-6 rounded-lg shadow-md max-w-3xl mx-auto">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Player Stats</h3>
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div>
+                            <div class="text-3xl font-bold text-emerald-500">10M+</div>
+                            <p class="text-gray-600">Monthly Players</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-emerald-500">999,999</div>
+                            <p class="text-gray-600">Highest Score</p>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-emerald-500">4.8/5</div>
+                            <p class="text-gray-600">Average Rating</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+    <!-- Frequently Asked Questions -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Is the Dinosaur Game free to play?</h3>
+                    <p>Yes, the Dinosaur Game is completely free to play online. There are no hidden fees or in-game purchases required.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Can I play the Dinosaur Game on mobile devices?</h3>
+                    <p>Absolutely! Our version of the Dinosaur Game is fully optimized for mobile devices. Simply tap the screen to jump and enjoy the game on any smartphone or tablet.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">What's the highest score ever recorded?</h3>
+                    <p>While the official world record is constantly changing, scores over 20,000 are considered exceptional. The theoretical maximum is unlimited as the game continues indefinitely, getting progressively more difficult.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Does the game work offline?</h3>
+                    <p>Our online version requires an internet connection to load initially. However, the original Chrome Dinosaur Game was specifically designed to be played when you're offline - that's why it appears when your browser can't connect to the internet!</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Are there different versions of the Dinosaur Game?</h3>
+                    <p>Google occasionally releases special themed versions of the game for holidays and anniversaries. Our platform offers the classic version that millions know and love.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gradient-to-r from-teal-500 to-emerald-500 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Test Your Reflexes?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Challenge yourself with the classic Dinosaur Game that's entertained millions. No downloads required - play instantly in your browser!</p>
+            <a href="#play" class="bg-white text-emerald-600 hover:bg-emerald-50 transition-colors px-8 py-3 rounded-full font-semibold shadow-lg inline-block">Play Now</a>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-4 text-center">
-            <p>&copy; 2025 Dinosaur Game. All rights reserved.</p>
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-6">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-semibold mb-2">Dinosaur Game</h3>
+                    <p class="text-gray-400 text-sm">Classic Chrome T-Rex runner game, play for free anytime, anywhere</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#play" class="text-gray-400 hover:text-white transition-colors">Play</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">How to Play</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Features</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Tips</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">FAQ</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-6 text-center text-gray-400">
+                <p class="text-sm">&copy; 2025 Dinosaur Game. All rights reserved.</p>
+                <p class="mt-2 text-xs">This game is not affiliated with Google Chrome or its parent company. For entertainment purposes only.</p>
+            </div>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-6 right-6 bg-emerald-500 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+    </button>
+
+    <script>
+        // Back to Top Button Functionality
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
 </body>
 </html>
