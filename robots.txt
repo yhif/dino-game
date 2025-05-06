@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+
+# 指向站点地图
+Sitemap: https://dinosaur-game.io/sitemap.xml
