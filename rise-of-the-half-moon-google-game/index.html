@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Half Moon Google Game - the official lunar strategy adventure inspired by Google's interactive doodle. Build your moon colony, compete with players worldwide.">
+    <meta name="keywords" content="half moon google game, google moon game, lunar strategy game, google doodle game, space colony game">
+    <title>Half Moon Google Game | Official Lunar Strategy Adventure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        .game-card {
+            aspect-ratio: 16/9;
+            border-radius: 12px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            transition: all 0.3s ease;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
+        .google-doodle-banner {
+            background: linear-gradient(135deg, #4285F4 0%, #34A853 33%, #FBBC05 66%, #EA4335 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans antialiased">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-moon text-blue-600 text-2xl mr-2"></i>
+                        <a href="/" class="text-xl font-bold text-gray-900">Half Moon Google Game</a>
+                    </div>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:items-center sm:space-x-8">
+                    <a href="#features" class="text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">Features</a>
+                    <a href="#how-to-play" class="text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">How to Play</a>
+                    <a href="#faq" class="text-gray-500 hover:text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">FAQ</a>
+                    <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700">Play Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Google Doodle Link -->
+    <div class="hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+                        Official <span class="text-blue-400">Half Moon</span> Google Game
+                    </h1>
+                    <p class="mt-6 text-xl text-blue-100 max-w-3xl">
+                        The strategic lunar adventure inspired by Google's interactive doodle. Build your moon colony, gather resources, and compete with players worldwide.
+                    </p>
+                    <div class="mt-10 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
+                            Play Now
+                        </a>
+                        <a href="#how-to-play" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 bg-opacity-60 hover:bg-opacity-70 md:py-4 md:text-lg md:px-10">
+                            How to Play
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="relative">
+                        <div class="game-card w-full bg-black overflow-hidden">
+                            <img src="https://www.google.com/logos/2024/moon/moon_april-rc2/cta.png" alt="Half Moon Google Game Screenshot" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute -bottom-4 left-0 right-0 flex justify-center">
+                            <a href="https://www.google.com/logos/2024/moon/moon_april-rc2/moon_april.html?hl=en" class="google-doodle-banner text-white px-6 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all">
+                                <i class="fab fa-google mr-2"></i> Play Original Google Moon Doodle
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Doodle Info Section -->
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    Inspired by <span class="text-blue-600">Google's Moon Doodle</span>
+                </h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Our game expands on the concepts from Google's interactive lunar landing doodle into a full strategy experience
+                </p>
+            </div>
+
+            <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="pt-6">
+                    <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8 h-full">
+                        <div class="-mt-6">
+                            <div>
+                                <span class="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
+                                    <i class="fas fa-rocket text-white text-xl"></i>
+                                </span>
+                            </div>
+                            <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Lunar Landing Mechanics</h3>
+                            <p class="mt-5 text-base text-gray-500">
+                                Just like in the Google doodle, you'll need to carefully land your spacecraft before beginning colony construction.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8 h-full">
+                        <div class="-mt-6">
+                            <div>
+                                <span class="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
+                                    <i class="fas fa-expand text-white text-xl"></i>
+                                </span>
+                            </div>
+                            <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Expanded Gameplay</h3>
+                            <p class="mt-5 text-base text-gray-500">
+                                We've taken the core doodle concept and added resource management, research trees, and multiplayer competition.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-6">
+                    <div class="flow-root bg-gray-50 rounded-lg px-6 pb-8 h-full">
+                        <div class="-mt-6">
+                            <div>
+                                <span class="inline-flex items-center justify-center p-3 bg-blue-500 rounded-md shadow-lg">
+                                    <i class="fas fa-share-alt text-white text-xl"></i>
+                                </span>
+                            </div>
+                            <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Google Integration</h3>
+                            <p class="mt-5 text-base text-gray-500">
+                                Sign in with your Google account to save progress and compete on leaderboards with friends.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    Key Features of <span class="text-blue-600">Half Moon Google Game</span>
+                </h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+                    What makes our lunar strategy game unique
+                </p>
+            </div>
+
+            <div class="mt-12">
+                <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
+                    <div class="relative">
+                        <div class="flex items-center">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 class="ml-4 text-lg font-medium text-gray-900">Multiplayer Moon Colonies</h3>
+                        </div>
+                        <p class="mt-4 text-base text-gray-500">
+                            Compete or cooperate with thousands of players in a persistent lunar world. Form alliances, trade resources, or battle for territory.
+                        </p>
+                    </div>
+
+                    <div class="relative">
+                        <div class="flex items-center">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <h3 class="ml-4 text-lg font-medium text-gray-900">Scientific Research Tree</h3>
+                        </div>
+                        <p class="mt-4 text-base text-gray-500">
+                            Unlock new technologies based on real lunar science, from oxygen extraction to solar energy systems.
+                        </p>
+                    </div>
+
+                    <div class="relative">
+                        <div class="flex items-center">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <h3 class="ml-4 text-lg font-medium text-gray-900">Lunar Day/Night Cycle</h3>
+                        </div>
+                        <p class="mt-4 text-base text-gray-500">
+                            Experience the challenges of 14-day lunar nights where solar power is unavailable and temperatures plummet.
+                        </p>
+                    </div>
+
+                    <div class="relative">
+                        <div class="flex items-center">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h3 class="ml-4 text-lg font-medium text-gray-900">Google Play Leaderboards</h3>
+                        </div>
+                        <p class="mt-4 text-base text-gray-500">
+                            Compete for top rankings on Google Play Games leaderboards and earn achievements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How to Play Section -->
+    <div id="how-to-play" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    How to Play <span class="text-blue-600">Half Moon Google Game</span>
+                </h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Master the lunar landscape with these simple steps
+                </p>
+            </div>
+
+            <div class="mt-16">
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100">
+                            <span class="text-blue-600 text-xl font-bold">1</span>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-gray-900">Land Your Lander</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Just like the Google doodle, carefully guide your lunar lander to a safe touchdown to begin your colony.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100">
+                            <span class="text-blue-600 text-xl font-bold">2</span>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-gray-900">Build Your Habitat</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Construct living quarters, oxygen generators, and power systems to support your colonists.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100">
+                            <span class="text-blue-600 text-xl font-bold">3</span>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-gray-900">Gather Resources</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Mine lunar regolith for minerals and extract water from ice deposits in permanently shadowed craters.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100">
+                            <span class="text-blue-600 text-xl font-bold">4</span>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-gray-900">Research Technologies</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Unlock new buildings and capabilities through the tech tree to expand your colony's capabilities.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100">
+                            <span class="text-blue-600 text-xl font-bold">5</span>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-gray-900">Connect With Others</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Form alliances with other players, trade resources, or compete for limited lunar territory.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100">
+                            <span class="text-blue-600 text-xl font-bold">6</span>
+                        </div>
+                        <h3 class="mt-6 text-lg font-medium text-gray-900">Achieve Dominance</h3>
+                        <p class="mt-2 text-base text-gray-500">
+                            Complete the lunar terraforming project or establish the most prosperous colony to win.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div id="faq" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    Frequently Asked Questions
+                </h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Everything you need to know about Half Moon Google Game
+                </p>
+            </div>
+
+            <div class="mt-12">
+                <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-12">
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-question"></i>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Is this the official Google Moon Doodle game?</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            Our game is inspired by Google's interactive moon landing doodle but expands it into a full strategy experience. You can play the original doodle via the link in our hero section.
+                        </dd>
+                    </div>
+
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-question"></i>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Do I need a Google account to play?</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            While you can play without an account, signing in with Google allows progress saving, cloud backups, and access to leaderboards.
+                        </dd>
+                    </div>
+
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-question"></i>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Is there multiplayer competition?</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            Yes! The persistent world includes thousands of players. You can form alliances, trade resources, or compete for territory.
+                        </dd>
+                    </div>
+
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-question"></i>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">How does this differ from the Google Doodle?</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            While the doodle focuses on the landing sequence, our game adds colony building, resource management, technology research, and multiplayer interaction.
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="bg-blue-700">
+        <div class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                <span class="block">Ready to build your moon colony?</span>
+                <span class="block text-blue-200">Join the lunar strategy adventure today</span>
+            </h2>
+            <div class="mt-8 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
+                    Play Half Moon Game
+                </a>
+                <a href="https://www.google.com/logos/2024/moon/moon_april-rc2/moon_april.html?hl=en" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 bg-opacity-60 hover:bg-opacity-70 md:py-4 md:text-lg md:px-10">
+                    <i class="fab fa-google mr-2"></i> Original Google Doodle
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="col-span-2">
+                    <h3 class="text-white text-lg font-semibold">Half Moon Google Game</h3>
+                    <p class="mt-4 text-gray-300 text-sm">
+                        The lunar strategy adventure inspired by Google's interactive doodle. Build your moon colony, compete with players worldwide, and experience space colonization.
+                    </p>
+                    <div class="mt-4 flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-discord text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-white text-sm font-semibold tracking-wider uppercase">Game</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li>
+                            <a href="#features" class="text-gray-300 hover:text-white text-sm">Features</a>
+                        </li>
+                        <li>
+                            <a href="#how-to-play" class="text-gray-300 hover:text-white text-sm">How to Play</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white text-sm">Leaderboards</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-sm font-semibold tracking-wider uppercase">About</h3>
+                    <ul class="mt-4 space-y-4">
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white text-sm">Google Doodle</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white text-sm">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-300 hover:text-white text-sm">Terms of Service</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-8">
+                <p class="text-gray-400 text-sm text-center">
+                    &copy; 2024 Half Moon Google Game. Not affiliated with Google LLC. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
