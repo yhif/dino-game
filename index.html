@@ -26,8 +26,6 @@
     
       gtag('config', 'G-WG0L4QTSHK');
     </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2682010394958299"
-     crossorigin="anonymous"></script>
 </head>
 <body class="bg-gray-50">
     <!-- Hero Section -->
@@ -53,14 +51,19 @@
 
     <!-- Game Section -->
     <section id="play" class="container mx-auto px-4 py-12">
-        <!-- Adsterra Native Banner 广告 -->
+        <!-- Adsterra Native Banner 广告（iframe 包裹防劫持） -->
         <div class="flex justify-center my-6">
-            <iframe style="width:336px;height:280px;border:none;overflow:hidden;" scrolling="no" allowtransparency="true">
-                <html><body style='margin:0;padding:0;background:transparent;'>
-                    <script async="async" data-cfasync="false" src="//pl27199925.profitableratecpm.com/fb9febe524f6e3cc98f08334d4228444/invoke.js"></script>
-                    <div id="container-fb9febe524f6e3cc98f08334d4228444"></div>
+            <iframe
+            srcdoc='
+                <html><body style="margin:0;padding:0;background:transparent;overflow:hidden;">
+                <script async="async" data-cfasync="false" src="//pl27199925.profitableratecpm.com/fb9febe524f6e3cc98f08334d4228444/invoke.js"></script>
+                <div id="container-fb9febe524f6e3cc98f08334d4228444"></div>
                 </body></html>
-            </iframe>
+            '
+            style="width:336px;height:280px;border:none;overflow:hidden;"
+            scrolling="no"
+            allowtransparency="true"
+            ></iframe>
         </div>
         <h2 class="text-3xl font-bold text-center mb-8">Play Dinosaur Game Online</h2>
         <div class="w-full aspect-video bg-white rounded-lg shadow-lg overflow-hidden">
