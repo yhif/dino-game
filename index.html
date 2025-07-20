@@ -582,11 +582,15 @@
         });
     </script>
 
+    <!-- Adsterra Social Bar 广告（iframe 包裹防劫持） -->
+    <div style="position:fixed;z-index:99999;bottom:0;left:0;width:100vw;pointer-events:none;">
     <iframe
-    srcdoc="<script type='text/javascript' src='//pl27214287.profitableratecpm.com/3c/df/b3/3cdfb34c891f4e53f509a1c94d744485.js'></script>"
-    style="display:none;width:0;height:0;border:0;overflow:hidden;"
-    sandbox="allow-scripts"
-    referrerpolicy="no-referrer"
+        srcdoc="<script type='text/javascript' src='//pl27214287.profitableratecpm.com/3c/df/b3/3cdfb34c891f4e53f509a1c94d744485.js'></script>"
+        style="width:100vw;height:0;min-height:0;border:none;overflow:visible;pointer-events:auto;background:transparent;"
+        scrolling="no"
+        allowtransparency="true"
     ></iframe>
+    </div>
+    
 </body>
 </html>
